@@ -17,6 +17,7 @@ namespace WorkOut
     {
 
         #region Attributes Declaration
+        string remove;
         string[,] M;
         List<string>[] workoutList;
         //replacing M[days,strings] with WorkoutList[]
